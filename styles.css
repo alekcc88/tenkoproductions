@@ -1,13 +1,36 @@
+/* Page layout */
 body {
   margin: 0;
   height: 100vh;
 
   display: flex;
-  justify-content: center; /* horizontal center */
-  align-items: center;    /* vertical center */
+  justify-content: center;
+  align-items: center;
 
-  font-family: Arial, sans-serif;
-  background: #111;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
+
   text-align: center;
+}
+
+/* Typography */
+.content {
+  font-family: "Minion Pro", "Adobe Garamond Pro", Garamond, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Each line */
+.line {
+  display: block;
+}
+
+/* Link styling */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
